@@ -1,0 +1,21 @@
+hmf4j:
+  profiles:
+    - profileName: kafka_profile
+      system: kafka
+      consumer:
+        properties:
+          bootstrap.servers: localhost:9092
+          group.id: test_app
+          max.messages.per.batch: 3
+          max.poll.duration.millis: 10000
+    - profileName: pubsub_profile
+      system: google-pubsub
+      consumer:
+        properties:
+          emulator.exec.flag: true
+          host.name: "localhost"
+          host.port: 8085
+          project.id: "sample-pubsub"
+          subscription.id: "test_sub"
+          max.messages.per.batch: 3
+          max.poll.duration.millis: 15000
