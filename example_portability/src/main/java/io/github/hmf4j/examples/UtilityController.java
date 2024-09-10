@@ -1,4 +1,4 @@
-package io.github.handy.messaging.examples;
+package io.github.hmf4j.examples;
 
 import com.google.type.DateTime;
 import io.github.handy.messaging.types.simplemessage.SimpleMessage;

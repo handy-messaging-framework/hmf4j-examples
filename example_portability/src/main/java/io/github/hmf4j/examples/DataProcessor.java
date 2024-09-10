@@ -1,4 +1,4 @@
-package io.github.handy.messaging.examples;
+package io.github.hmf4j.examples;
 
 import io.github.handy.messaging.interfaces.Message;
 import io.github.handy.messaging.interfaces.MessageHandler;
